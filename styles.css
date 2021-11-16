@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Lexend Deca', sans-serif; */
+
+/* ### Primary */
+/* * {
+  Very dark blue (main background)
+  color: hsl(233, 47%, 7%);
+  Dark desaturated blue (card background)
+  color: hsl(244, 38%, 16%);
+  Soft violet (accent)
+  color: hsl(277, 64%, 61%);
+} */
+
+/* ### Neutral */
+/* * {
+  White (main heading, stats)
+  color: hsl(0, 0%, 100%);
+  Slightly transparent white (main paragraph)
+  color: hsla(0, 0%, 100%, 0.75);
+  Slightly transparent white (stat headings)
+  color: hsla(0, 0%, 100%, 0.6);
+} */
+
+body {
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+  text-align: center;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  background-color: hsl(244, 38%, 16%);
+  background-image: linear-gradient(
+      rgba(91, 36, 125, 0.85),
+      rgba(91, 36, 125, 0.85)
+    ),
+    url("images/image-header-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 260px;
+  width: 295px;
+  margin: 50px auto;
+  padding: 270px 20px 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 0 12px;
+  margin-bottom: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats div {
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats span {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: initial;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  padding: 8px 0;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
